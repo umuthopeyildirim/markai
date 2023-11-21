@@ -65,7 +65,9 @@ const answerPrompt = PromptTemplate.fromTemplate(ANSWER_TEMPLATE);
  *
  * https://js.langchain.com/docs/guides/expression_language/cookbook#conversational-retrieval-chain
  */
-export async function POST(req: NextRequest) {
+// We switched to Agent retrieval chain.
+// This is only example code.
+async function retrieval(req: NextRequest) {
   try {
     const body = await req.json();
     const brand_id = body.brand_id;
@@ -77,7 +79,7 @@ export async function POST(req: NextRequest) {
       openAIApiKey: process.env.NEXT_SECRET_OPENAI_API_KEY!,
       modelName: "gpt-3.5-turbo",
       configuration: {
-        baseURL: "https://gateway.ai.cloudflare.com/v1/d26499da33ddd3d0e13f3a8efb2708d1/markflare/openai",
+        baseURL: "https://gateway.ai.cloudflare.com/v1/d26499da33ddd3d0e13f3a8efb2708d1/markai/openai",
       },
     });
 
@@ -141,3 +143,4 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: e.message }, { status: 500 });
   }
 }
+

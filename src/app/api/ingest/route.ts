@@ -35,6 +35,9 @@ async function handleExtension(extension: string, content: string, brand_id: str
     new OpenAIEmbeddings(
       {
         openAIApiKey: process.env.NEXT_SECRET_OPENAI_API_KEY!,
+        configuration: {
+          baseURL: "https://gateway.ai.cloudflare.com/v1/d26499da33ddd3d0e13f3a8efb2708d1/markai/openai",
+        },
       }
     ),
     {
