@@ -49,9 +49,9 @@ export async function POST(req: NextRequest) {
       modelName: "gpt-3.5-turbo",
       // This was used so I could track usage of the model in Cloudflare Dashboard
       // for more info: https://developers.cloudflare.com/ai-gateway/
-      // configuration: {
-      //   baseURL: "https://gateway.ai.cloudflare.com/v1/account_id/name_you_chosed/openai",
-      // },
+      configuration: {
+        baseURL: "https://gateway.ai.cloudflare.com/v1/d26499da33ddd3d0e13f3a8efb2708d1/markai/openai",
+      },
     });
 
     const client = createClient(
