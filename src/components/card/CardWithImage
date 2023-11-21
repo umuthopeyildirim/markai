@@ -1,0 +1,40 @@
+					{/* Brands card with icon/image */}
+					<Card
+						className="min-h-[440px]"
+						isHoverable={true}
+						isPressable={true}
+						shadow="lg"
+						fullWidth={true}
+					>
+						<Image
+							as={NextImage}
+							width={500}
+							height={500}
+							alt="Card background"
+							className="object-cover"
+							src="/images/hero-card-complete.webp"
+						/>
+						<CardBody className="h-1/2">
+							<div className="flex h-full flex-col">
+								<div className="basis-3/4">
+									<p className="text-xl">Title</p>
+									<p className="text-base text-success">
+										Description
+									</p>
+									<p className="text-sm text-slate-400">
+										Last updated 4 days ago, 01:43
+									</p>
+								</div>
+								<div className="relative basis-1/4">
+									<Chip
+										className="absolute bottom-0 pl-3"
+										startContent={<FaMap />}
+										color="secondary"
+										variant="flat"
+									>
+										Free Plan
+									</Chip>
+								</div>
+							</div>
+						</CardBody>
+					</Card>

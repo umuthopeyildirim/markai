@@ -1,0 +1,21 @@
+actions:
+- .github/**/*
+
+app:
+- src/app/**/*
+
+components:
+- src/components/**/*/
+
+public:
+- public/**/*
+
+readme:
+- README.md
+
+docs:
+- docs/**/*
+
+tests:
+- tests/**/*
+- src/test/**/*
