@@ -10,7 +10,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"@clerk/nextjs": "^4.27.1",
+		"@clerk/nextjs": "^4.27.2",
 		"@clerk/themes": "^1.7.9",
 		"@datadog/browser-rum": "^5.4.0",
 		"@nextui-org/react": "^2.2.9",
@@ -18,7 +18,7 @@
 		"@supabase/supabase-js": "^2.38.5",
 		"@types/lodash.debounce": "^4.0.9",
 		"@types/luxon": "^3.3.5",
-		"@types/node": "^20.9.4",
+		"@types/node": "^20.10.0",
 		"@types/react": "^18.2.38",
 		"@types/react-dom": "^18.2.17",
 		"@upstash/ratelimit": "^0.4.4",
