@@ -15,7 +15,7 @@
 		"@datadog/browser-rum": "^5.4.0",
 		"@nextui-org/react": "^2.2.9",
 		"@reduxjs/toolkit": "^1.9.7",
-		"@supabase/supabase-js": "^2.38.5",
+		"@supabase/supabase-js": "^2.39.0",
 		"@types/lodash.debounce": "^4.0.9",
 		"@types/luxon": "^3.3.5",
 		"@types/node": "^20.10.0",
