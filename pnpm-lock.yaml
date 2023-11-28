@@ -69,8 +69,8 @@ dependencies:
     specifier: ^10.16.5
     version: 10.16.5(react-dom@18.2.0)(react@18.2.0)
   langchain:
-    specifier: ^0.0.196
-    version: 0.0.196(@supabase/supabase-js@2.38.5)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.0)
+    specifier: ^0.0.198
+    version: 0.0.198(@supabase/supabase-js@2.38.5)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.0)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -475,6 +475,21 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
+    dev: false
+
+  /@langchain/core@0.0.2:
+    resolution: {integrity: sha512-Q3koIjjI295wUKrSMLTXoc3GUyGOS8L4NiLNWD05lozv9mXCNYG6/kmykzQLbiSWXVRKG4zQ82Kr7EHb39tQQw==}
+    engines: {node: '>=18'}
+    dependencies:
+      ansi-styles: 5.2.0
+      camelcase: 6.3.0
+      decamelize: 1.2.0
+      js-tiktoken: 1.0.8
+      langsmith: 0.0.48
+      p-queue: 6.6.2
+      p-retry: 4.6.2
+      uuid: 9.0.1
+      zod: 3.22.4
     dev: false
 
   /@next/bundle-analyzer@14.0.3:
@@ -5093,23 +5108,8 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain-core@0.0.1:
-    resolution: {integrity: sha512-0WDRf3acbJ1zG+HeFUrs8H+mKzwjaPOgnAvbj+wmmSHYoszN6jq7978DWFRwL+ghy23s7RFewzlJCC6k9KsnoQ==}
-    engines: {node: '>=18'}
-    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
-    dependencies:
-      ansi-styles: 5.2.0
-      camelcase: 6.3.0
-      decamelize: 1.2.0
-      js-tiktoken: 1.0.8
-      langsmith: 0.0.48
-      p-queue: 6.6.2
-      p-retry: 4.6.2
-      uuid: 9.0.1
-    dev: false
-
-  /langchain@0.0.196(@supabase/supabase-js@2.38.5)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.0):
-    resolution: {integrity: sha512-kt17GGTDFWHNv3jJOIXymsQxfa+h9UQ6hrHbhur+V2pV6RBKO5E+RRCvnCqBzbnOPtrlkENF6Wl3Ezmsfo21dg==}
+  /langchain@0.0.198(@supabase/supabase-js@2.38.5)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.0):
+    resolution: {integrity: sha512-YC0O1g8r61InCWyF5NmiQjdghdq6LKcgMrDZtqLbgDxAe4RoSldonm+5oNXS3yjCISG0j3s5Cty+yB7klqvUpg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-crypto/sha256-js': ^5.0.0
@@ -5122,14 +5122,14 @@ packages:
       '@aws-sdk/client-sfn': ^3.310.0
       '@aws-sdk/credential-provider-node': ^3.388.0
       '@azure/storage-blob': ^12.15.0
-      '@clickhouse/client': ^0.0.14
+      '@clickhouse/client': ^0.2.5
       '@cloudflare/ai': ^1.0.12
       '@elastic/elasticsearch': ^8.4.0
       '@getmetal/metal-sdk': '*'
       '@getzep/zep-js': ^0.9.0
-      '@gomomento/sdk': ^1.47.1
-      '@gomomento/sdk-core': ^1.47.1
-      '@gomomento/sdk-web': ^1.47.1
+      '@gomomento/sdk': ^1.51.1
+      '@gomomento/sdk-core': ^1.51.1
+      '@gomomento/sdk-web': ^1.51.1
       '@google-ai/generativelanguage': ^0.2.1
       '@google-cloud/storage': ^6.10.1
       '@huggingface/inference': ^2.6.4
@@ -5188,6 +5188,7 @@ packages:
       neo4j-driver: '*'
       node-llama-cpp: '*'
       notion-to-md: ^3.1.0
+      officeparser: ^4.0.4
       pdf-parse: 1.1.1
       peggy: ^3.0.2
       pg: ^8.11.0
@@ -5196,6 +5197,7 @@ packages:
       playwright: ^1.32.1
       portkey-ai: ^0.1.11
       puppeteer: ^19.7.2
+      pyodide: ^0.24.1
       redis: ^4.6.4
       replicate: ^0.18.0
       sonix-speech-recognition: ^2.1.1
@@ -5363,6 +5365,8 @@ packages:
         optional: true
       notion-to-md:
         optional: true
+      officeparser:
+        optional: true
       pdf-parse:
         optional: true
       peggy:
@@ -5378,6 +5382,8 @@ packages:
       portkey-ai:
         optional: true
       puppeteer:
+        optional: true
+      pyodide:
         optional: true
       redis:
         optional: true
@@ -5409,6 +5415,7 @@ packages:
         optional: true
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
+      '@langchain/core': 0.0.2
       '@supabase/supabase-js': 2.38.5
       '@vercel/kv': 0.2.4
       binary-extensions: 2.2.0
@@ -5418,7 +5425,6 @@ packages:
       js-tiktoken: 1.0.8
       js-yaml: 4.1.0
       jsonpointer: 5.0.1
-      langchain-core: 0.0.1
       langchainhub: 0.0.6
       langsmith: 0.0.48
       ml-distance: 4.0.1
@@ -5532,7 +5538,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /lru-cache@6.0.0:
@@ -5722,7 +5728,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /node-domexception@1.0.0:
