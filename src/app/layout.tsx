@@ -33,7 +33,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-	metadataBase: new URL("localhost:3000"),
+	metadataBase: new URL("https://markai.umutyildirim.com"),
 	title: {
 		default: "MarkAI",
 		template: "%s | MarkAI",
@@ -41,7 +41,8 @@ export const metadata: Metadata = {
 	description: "Empowering brands with AI-driven insights and tools.",
 	applicationName: "MarkAI",
 	authors: [
-		{ name: "Luminary Lightning", url: "https://luminarylightning.com" },
+		{ name: "Umut YILDIRIM", url: "https://umutyildirim.com" },
+		{ name: "Burak YILDIRIM", url: "https://burakyildirim.me" },
 	],
 	keywords: [
 		"MarkAI",
@@ -56,13 +57,13 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "https://markai.co",
+		url: "https://markai.umutyildirim.com",
 		title: "MarkAI",
 		description: "Empowering brands with AI-driven insights and tools.",
 		siteName: "MarkAI",
 		images: [
 			{
-				url: "https://markai.co/images/og-image.png",
+				url: "https://markai.umutyildirim.com/images/og-image.png",
 				width: 1200,
 				height: 630,
 				alt: "MarkAI",
@@ -73,7 +74,7 @@ export const metadata: Metadata = {
 		card: "summary_large_image",
 		site: "@MarkAI",
 		creator: "@MarkAI",
-		images: "https://markai.co/images/og-image.png",
+		images: "https://markai.umutyildirim.com/images/og-image.png",
 	},
 };
 

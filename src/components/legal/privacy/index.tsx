@@ -487,8 +487,8 @@ export default function PrivacyPolicy() {
 			</p>
 			<p>
 				By email:{" "}
-				<a href="mailto:info@markai.co" className="text-success">
-					info@markai.co
+				<a href="mailto:info@umutyildirim.com" className="text-success">
+					info@umutyildirim.com
 				</a>
 			</p>
 		</main>

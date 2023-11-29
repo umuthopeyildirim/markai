@@ -68,7 +68,7 @@ export default function TermsPage() {
 
 			<p>
 				<span className="font-bold">Website</span> refers to MarkAI,
-				accessible from markai.co
+				accessible from markai.umutyildirim.com
 			</p>
 
 			<p>
@@ -338,8 +338,8 @@ export default function TermsPage() {
 				If you have any questions about these Terms and Conditions, You
 				can contact us:
 			</p>
-			<a href="mailto:info@markai.co" className="text-success">
-				info@markai.co
+			<a href="mailto:info@umutyildirim.com" className="text-success">
+				info@umutyildirim.com
 			</a>
 		</main>
 	);

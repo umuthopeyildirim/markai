@@ -331,7 +331,7 @@ export default function AddBrandPage() {
 						<p>Provide a valid URL</p>
 						<Input
 							label="Brand Website URL"
-							placeholder="https://markai.co"
+							placeholder="https://markai.umutyildirim.com"
 							className="w-full"
 							value={brandWebsiteUrl}
 							onChange={(e) => setBrandWebsiteUrl(e.target.value)}
