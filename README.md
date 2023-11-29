@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/github/license/umuthopeyildirim/markai)
 
-MarkAI is a AI-platform that guides you on your employees to be more efficient. It is a platform that you can ask questions to your AI and get answers from your documents.
+MarkAI is a AI-platform that guides you on your employees to be more efficient. It is a platform that you can ask questions to your AI and get answers from your documents. We designed it to be serverless and scalable. It is a platform that you can use for your company or personal use.
 
 ## Key Features 🎯
 
@@ -44,4 +44,10 @@ Thanks go to these wonderful people:
 
 ## Stars History 📈
 
-[![Star History Chart](https://api.star-history.com/svg?repos=umuthopeyildirim/markai&type=Timeline)](https://star-history.com/#umuthopeyildirim/markai&Timeline)
+<a href="https://star-history.com/#umuthopeyildirim/markai&Timeline">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=umuthopeyildirim/markai&type=Timeline&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=umuthopeyildirim/markai&type=Timeline" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=umuthopeyildirim/markai&type=Timeline" />
+  </picture>
+</a>
