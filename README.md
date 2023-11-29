@@ -20,6 +20,7 @@ Just follow the instructions on the [setup.md](docs/setup.md).
 
 -   [Clerk](https://clerk.com) for authentication
 -   [Supabase](https://supabase.com) for database and vector search
+-   [LangChain](https://www.langchain.com/) for Agents and Embeddings
 -   [Cloudflare](https://cloudflare.com) (Optional) for custom domain and AI Gateway(Monitoring)
 -   [Vercel](https://vercel.com) for deployment, CI/CD and serverless functions
 -   [OpenAI](https://openai.com) for AI API calls

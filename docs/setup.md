@@ -20,6 +20,7 @@ MarkAI uses Supabase for database and vector search. Create a Supabase project a
 
 MarkAI uses Clerk for authentication. Create a Clerk application and copy the API Key. Paste secrets in `.env.local` make sure they are correctly formatted.
 After creating the application, go to [this docs page and follow the instructions to setup the application](https://clerk.com/docs/integrations/databases/supabase).
+Don't forget to activate organizatiions and teams in the Clerk dashboard.
 
 ### 3. OpenAI API Key
 
