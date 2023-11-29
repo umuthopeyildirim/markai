@@ -2,6 +2,17 @@
 	"name": "markai",
 	"version": "0.1.0",
 	"private": true,
+	"author": {
+		"name": "Umut Hope YILDIRIm",
+		"email": "hope@umutyildirim.com",
+		"url": "https://umutyildirim.com"
+	},
+	"contributors": [
+		{
+			"name": "Burak YILDIRIM",
+			"url": "https://burakyildirim.me"
+		}
+	],
 	"scripts": {
 		"dev": "next dev",
 		"performanceDebug": "PERFORMANCE=true NODE_OPTIONS='--inspect' next dev",

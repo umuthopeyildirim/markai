@@ -26,8 +26,8 @@ function LandingFAQ() {
 						<Accordion variant="light">
 							<AccordionItem
 								key="1"
-								aria-label="What is MarkAI and how can it help in brand building?"
-								title="What is MarkAI and how can it help in brand building?"
+								aria-label="What is MarkAI and how can it help me?"
+								title="What is MarkAI and how can it help me?"
 								indicator={
 									<FaArrowLeft
 										size={20}
@@ -35,11 +35,11 @@ function LandingFAQ() {
 									/>
 								}
 							>
-								MarkAI is an AI-platform that guides users on
-								their journey to build an amazing brand,
-								offering tailored solutions and innovative
-								methods to revolutionize traditional
-								brand-building.
+								MarkAI is open source OpenAI wrapper that allows
+								you to leverage the power of OpenAI with
+								Langchain. MarkAI is a platform that provides
+								document and content searching that increases
+								your productivity and efficiency.
 							</AccordionItem>
 							<AccordionItem
 								key="2"
@@ -52,11 +52,9 @@ function LandingFAQ() {
 									/>
 								}
 							>
-								Unlike conventional methods, &apos;s AI-driven
-								capabilities provide personalized and optimized
-								strategies for brand-building, ensuring that
-								your brand remains relevant and competitive in
-								today&apos;s dynamic market.
+								Unlike conventional methods, MarkAI&apos;s
+								AI-driven capabilities provide personalized and
+								optimized strategies for you and your brand.
 							</AccordionItem>
 							<AccordionItem
 								key="3"
@@ -69,16 +67,15 @@ function LandingFAQ() {
 									/>
 								}
 							>
-								Yes, we offer Enterprise Support which is
-								designed specifically for the needs of large
-								organizations. It includes dedicated and
-								personalized assistance, ensuring smooth
-								operations and immediate troubleshooting.
+								No, MarkAI is open source and free to use.
+								However if you need help with setup or have any
+								questions, feel free to reach out to us on our
+								Github repo.
 							</AccordionItem>
 							<AccordionItem
 								key="4"
-								aria-label="How does  ensure the success and growth of my brand?"
-								title="How does  ensure the success and growth of my brand?"
+								aria-label="How does MarkAI ensure the success and security?"
+								title="How does MarkAI ensure the success and security?"
 								indicator={
 									<FaArrowLeft
 										size={20}
@@ -86,48 +83,11 @@ function LandingFAQ() {
 									/>
 								}
 							>
-								combines innovative AI-driven strategies with
-								expert support. Our platform not only guides you
-								in crafting your brand but also offers
-								Enterprise Support to handle any challenges,
-								ensuring sustained growth and success.
-							</AccordionItem>
-							<AccordionItem
-								key="5"
-								aria-label="Does  offer a free trial or a demo version?"
-								title="Does  offer a free trial or a demo version?"
-								indicator={
-									<FaArrowLeft
-										size={20}
-										className="text-success"
-									/>
-								}
-							>
-								Yes, we offer currently offer 20 free credits if
-								you signup to our platform. This will allow you
-								to test out our platform and see if it is right
-								for you.
-							</AccordionItem>
-							<AccordionItem
-								key="6"
-								aria-label="Are there any discounts available for startups or non-profits looking to use ?"
-								title="Are there any discounts available for startups or non-profits looking to use ?"
-								indicator={
-									<FaArrowLeft
-										size={20}
-										className="text-success"
-									/>
-								}
-							>
-								Yes, we offer extra 100 credits and 50% discount
-								for startups and non-profits. Please contact us
-								at
-								<a href="mailto:student@markai.co">
-									student@markai.co
-								</a>{" "}
-								with your student or non-profit email address to
-								get started. Please provide tax exemption
-								certificate for non-profits.
+								MarkAI is open source and free to use. We
+								don&apos;t store any of your data. All your data
+								is stored in your Supabase database. All
+								controled by you. Users don&apos;t have access
+								to other users data.
 							</AccordionItem>
 						</Accordion>
 					</div>

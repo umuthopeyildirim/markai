@@ -56,6 +56,10 @@ const Header: FC = () => {
 			name: "Features",
 			href: "/#features",
 		},
+		{
+			name: "FAQ",
+			href: "/#faqs",
+		},
 		// {
 		// 	name: "Join Waitlist",
 		// 	href: "/#apply",
@@ -106,6 +110,11 @@ const Header: FC = () => {
 						<NavbarItem>
 							<Link color="foreground" href="/#features">
 								Features
+							</Link>
+						</NavbarItem>
+						<NavbarItem>
+							<Link color="foreground" href="/#faqs">
+								FAQ
 							</Link>
 						</NavbarItem>
 						{/* <NavbarItem>

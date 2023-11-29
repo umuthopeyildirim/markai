@@ -1,44 +1,22 @@
 "use client";
-import {
-	FaBoltLightning,
-	FaBrain,
-	FaFire,
-	FaMoneyBillWave,
-	FaArrowsLeftRightToLine,
-	FaBuilding,
-} from "react-icons/fa6";
+import { FaBoltLightning, FaBrain, FaUserLock } from "react-icons/fa6";
 
 function LandingFeatures() {
 	const features = [
 		{
 			icon: <FaBoltLightning size={25} />,
 			title: "Delivered in seconds",
-			desc: `Experience unparalleled speed with . Our AI-driven platform ensures your branding insights and tools are delivered in mere seconds, making brand-building efficient and instantaneous. Say goodbye to waiting and jumpstart your brand's journey immediately.`,
+			desc: `Experience unparalleled speed with MarkAI. Our AI-driven platform ensures your branding insights and tools are delivered in mere seconds. Note: This is based on your Supabase plan.`,
 		},
 		{
 			icon: <FaBrain size={25} />,
-			title: `100% created by AI`,
-			desc: `Leverage the power of cutting-edge AI with . Every piece of content and branding material is autonomously generated, ensuring modernity and uniqueness. Plus, rest assured knowing you retain 100% rights to all AI-generated content, providing you with full ownership and peace of mind.`,
+			title: `Langchain Powered`,
+			desc: `Leverage the power of cutting-edge AI with MarkAI&Langchain. All your content is available to OpenAI with Langchain agents.`,
 		},
 		{
-			icon: <FaFire size={25} />,
-			title: "Variety of distinguished styles",
-			desc: `Dive into 's vast collection of unique and impactful brand styles. Whether you're aiming for modern minimalism or timeless elegance, our platform offers a rich assortment to resonate with your brand's ethos and captivate your target audience. Tailor your branding journey with styles that truly represent your vision.`,
-		},
-		{
-			icon: <FaMoneyBillWave size={25} />,
-			title: "Affordable Prices",
-			desc: `At , we believe in providing top-notch AI-driven branding solutions without breaking the bank. Our tiered credit system is designed to give you the best value for your money. Invest in your brand's future with , where affordability meets excellence.`,
-		},
-		{
-			icon: <FaArrowsLeftRightToLine size={25} />,
-			title: "1024x1024 High Resolution",
-			desc: `Experience crystal-clear clarity with our 1024x1024 High Resolution feature. Whether it's for branding visuals, product displays, or any other graphics need, enjoy impeccable detail and precision, ensuring that your content stands out with the utmost quality.`,
-		},
-		{
-			icon: <FaBuilding size={25} />,
-			title: "Enterprise Support",
-			desc: `Experience dedicated and personalized assistance with 's Enterprise Support. Catering specifically to the needs of large organizations, our expert team ensures smooth operations, prompt troubleshooting, and guidance tailored to your brand-building journey. When it comes to ensuring your brand's success and growth, you're never alone with  by your side.`,
+			icon: <FaUserLock size={25} />,
+			title: "Private and Secure",
+			desc: `All your data is securly stored in your Supabase database. All controled by you. Users don't have access to other users data.`,
 		},
 	];
 	return (
@@ -56,11 +34,7 @@ function LandingFeatures() {
 							<span className="font-bold">
 								AI-driven capabilities
 							</span>
-							, say &apos;goodbye&apos; to traditional{" "}
-							<span className="font-bold">
-								revolutionary approach
-							</span>{" "}
-							to crafting an amazing brand.
+							, you can increase your productivity and efficiency.
 						</p>
 					</div>
 					<div className="relative mt-12">
