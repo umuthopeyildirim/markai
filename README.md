@@ -35,6 +35,7 @@ If you encounter a bug or have a feature request, please open an issue. If you w
 ## Contributors ✨
 
 Thanks go to these wonderful people:
+
 <a href="https://github.com/umuthopeyildirim/markai/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=umuthopeyildirim/markai" />
 </a>
