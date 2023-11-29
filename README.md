@@ -12,6 +12,8 @@ MarkAI is a AI-platform that guides you on your employees to be more efficient. 
 -   **Open Source**: Freedom is beautiful, and so is MarkAI. Open source and free to use.
 -   **Public/Private**: Invite your team to collaborate, or keep your data private.
 
+![MarkAI](./docs/images/Vector.png)
+
 ## Setup 🛠
 
 Just follow the instructions on the [setup.md](docs/setup.md).
