@@ -48,7 +48,7 @@ function LandingFeatures() {
 					<div className="mx-auto max-w-4xl space-y-5 text-center">
 						<h2 className="mx-auto text-4xl md:text-6xl ">
 							<span className="bg-gradient-to-t from-success-300 to-success-500 bg-clip-text font-bold text-transparent">
-								Need essential brand-building tools?
+								Need essential productivity tools?
 							</span>{" "}
 						</h2>
 						<p className="mx-auto max-w-2xl text-xl">
@@ -56,8 +56,7 @@ function LandingFeatures() {
 							<span className="font-bold">
 								AI-driven capabilities
 							</span>
-							, say &apos;goodbye&apos; to traditional on-boarding
-							or HR methods and say &apos;hello&apos; to{" "}
+							, say &apos;goodbye&apos; to traditional{" "}
 							<span className="font-bold">
 								revolutionary approach
 							</span>{" "}

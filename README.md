@@ -1,4 +1,4 @@
-# MarkAI - Another RAG platform
+# MarkAI - Another RAG template
 
 ![License](https://img.shields.io/github/license/umuthopeyildirim/markai)
 

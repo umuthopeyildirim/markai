@@ -1,7 +1,7 @@
 import {
 	LandingHero,
-	LandingChat,
-	LandingBetaAccess,
+	// LandingChat,
+	// LandingBetaAccess,
 	LandingFeatures,
 } from "@/components/landing";
 

@@ -32,20 +32,23 @@ const LandingHero: React.FC<LandingHeroProps> = ({
 							</Chip>
 						)}
 						<h2 className="mx-auto text-4xl font-bold md:text-6xl lg:text-8xl">
-							Bootstrap your company with {""}
+							Bootstrap your productivity with {""}
 							<span className="bg-gradient-to-t from-success-300 to-success-500 bg-clip-text text-transparent">
 								MarkAI
 							</span>
 						</h2>
 						<p className="mx-auto max-w-2xl text-2xl">
-							MarkAI is a AI-platform that guides you on your
-							employees to be more efficient.
+							An open-source OpenAI wrapper for a RAG-based
+							chatbot that seamlessly integrates with your
+							documents.
 						</p>
 						<div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
 							<Button
 								color="success"
 								size="md"
 								startContent={<FaPlus />}
+								as={Link}
+								href="/sign-in"
 							>
 								Try it out
 							</Button>
