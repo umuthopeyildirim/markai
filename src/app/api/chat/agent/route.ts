@@ -49,8 +49,15 @@ export async function POST(req: NextRequest) {
       modelName: "gpt-3.5-turbo",
       // This was used so I could track usage of the model in Cloudflare Dashboard
       // for more info: https://developers.cloudflare.com/ai-gateway/
+      // configuration: {
+      //   baseURL: "https://gateway.ai.cloudflare.com/v1/d26499da33ddd3d0e13f3a8efb2708d1/markai/openai",
+      // },
+      // Helicone setup 
       configuration: {
-        baseURL: "https://gateway.ai.cloudflare.com/v1/d26499da33ddd3d0e13f3a8efb2708d1/markai/openai",
+        baseURL: "http://oai.hconeai.com/v1",
+        defaultHeaders: {
+          "Helicone-Auth": "Bearer "+process.env.NEXT_SECRET_HELICONE_API_KEY!, 
+        },
       },
     });
 
