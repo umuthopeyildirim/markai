@@ -25,7 +25,7 @@
 		"@clerk/themes": "^1.7.9",
 		"@datadog/browser-rum": "^5.4.0",
 		"@nextui-org/react": "^2.2.9",
-		"@reduxjs/toolkit": "^1.9.7",
+		"@reduxjs/toolkit": "^2.0.1",
 		"@supabase/supabase-js": "^2.39.0",
 		"@types/lodash.debounce": "^4.0.9",
 		"@types/luxon": "^3.3.7",
