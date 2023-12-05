@@ -69,8 +69,8 @@ dependencies:
     specifier: ^10.16.12
     version: 10.16.12(react-dom@18.2.0)(react@18.2.0)
   langchain:
-    specifier: ^0.0.200
-    version: 0.0.200(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1)
+    specifier: ^0.0.201
+    version: 0.0.201(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -477,8 +477,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@langchain/core@0.0.7:
-    resolution: {integrity: sha512-YYTOsc20iIMbS2I1bhJpZSsDwspA3HgpeYhGEpFWjW9963wuH76W3OUCPfqESiJZiNeVzDTv0B9IaG4HyhuQXg==}
+  /@langchain/core@0.0.8:
+    resolution: {integrity: sha512-v6Uuc+LwgX24QiThMU19+31o7ZZlsl58P6vpvvFac4jayeth4tKIYfc1zLWAKPpmkbLCirFRf73C23JrbuwF6w==}
     engines: {node: '>=18'}
     dependencies:
       ansi-styles: 5.2.0
@@ -5049,8 +5049,8 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.0.200(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1):
-    resolution: {integrity: sha512-ljuwCLPd+NIp8sRtrI0zSHE17ZFbMODOc46JZjnXq0nt9QTF74S3K83y9una+U+w/r0iMmKY8H4QCHThULYHpg==}
+  /langchain@0.0.201(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1):
+    resolution: {integrity: sha512-zbmKpH3zbCgzbBxBq/YBXKS9xTLqUzQoBqW2j7ctiVYwNq+wIGHef8YuVnDXlli6Wx0+3T2b4kTI8506xkriMg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-crypto/sha256-js': ^5.0.0
@@ -5359,7 +5359,7 @@ packages:
         optional: true
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
-      '@langchain/core': 0.0.7
+      '@langchain/core': 0.0.8
       '@supabase/supabase-js': 2.39.0
       '@vercel/kv': 0.2.4
       binary-extensions: 2.2.0
@@ -5493,7 +5493,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /lru-cache@6.0.0:
