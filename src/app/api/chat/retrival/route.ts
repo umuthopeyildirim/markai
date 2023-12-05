@@ -22,10 +22,12 @@ type ConversationalRetrievalQAChainInput = {
   chat_history: VercelChatMessage[];
 };
 
-const combineDocumentsFn = (docs: Document[], separator = "\n\n") => {
+const combineDocumentsFn = (docs: Document[], options?: Record<string, any>) => {
+  // Handle 'options' parameter as needed, or ignore if not relevant
   const serializedDocs = docs.map((doc) => doc.pageContent);
-  return serializedDocs.join(separator);
+  return serializedDocs.join("\n\n");
 };
+
 
 const formatVercelMessages = (chatHistory: VercelChatMessage[]) => {
   const formattedDialogueTurns = chatHistory.map((message) => {
