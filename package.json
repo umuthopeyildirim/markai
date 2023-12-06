@@ -42,7 +42,7 @@
 		"eslint": "^8.55.0",
 		"eslint-config-next": "^14.0.3",
 		"framer-motion": "^10.16.14",
-		"langchain": "^0.0.201",
+		"langchain": "^0.0.202",
 		"lodash.debounce": "^4.0.8",
 		"luxon": "^3.4.4",
 		"next": "^14.0.3",
@@ -52,10 +52,10 @@
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-icons": "^4.12.0",
-		"react-redux": "^9.0.1",
+		"react-redux": "^9.0.2",
 		"tailwind-merge": "^2.1.0",
 		"tailwindcss": "^3.3.6",
-		"typescript": "^5.3.2"
+		"typescript": "^5.3.3"
 	},
 	"devDependencies": {
 		"@builder.io/partytown": "^0.8.1",
@@ -63,6 +63,6 @@
 		"cross-env": "^7.0.3",
 		"eslint-config-prettier": "^9.1.0",
 		"prettier": "^3.1.0",
-		"prettier-plugin-tailwindcss": "^0.5.8"
+		"prettier-plugin-tailwindcss": "^0.5.9"
 	}
 }
