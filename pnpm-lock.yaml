@@ -69,8 +69,8 @@ dependencies:
     specifier: ^10.16.14
     version: 10.16.14(react-dom@18.2.0)(react@18.2.0)
   langchain:
-    specifier: ^0.0.202
-    version: 0.0.202(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1)
+    specifier: ^0.0.203
+    version: 0.0.203(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -477,15 +477,15 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@langchain/core@0.0.9:
-    resolution: {integrity: sha512-TpGOvSY/nvpTx3ArVOJPqogfWroxnuD2eGnXvKRroB+DLyKKTxH7EODzgpLpf52C1x1aSnhYNlXoDAbePNNg4Q==}
+  /@langchain/core@0.0.10:
+    resolution: {integrity: sha512-c+tYcR9RRTPPGBTpgwVrrxWKoz9/mKNBcMST8c4n8tYAiipvMyd77e+CNazY+2KueGioU6SPzJ6+eZPamQAxnw==}
     engines: {node: '>=18'}
     dependencies:
       ansi-styles: 5.2.0
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.8
-      langsmith: 0.0.48
+      langsmith: 0.0.49
       p-queue: 6.6.2
       p-retry: 4.6.2
       uuid: 9.0.1
@@ -5036,8 +5036,8 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.0.202(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1):
-    resolution: {integrity: sha512-c3O5FyNgcqLpEwK6iXh0Tmey3dczcgv1jhs25D+c4QFQNEfFuvteG6JzhR8HdK3z89SWX6MUSzul9qNXdmz9iQ==}
+  /langchain@0.0.203(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1):
+    resolution: {integrity: sha512-H41ik99zXVuqe6CqYoySE4p8TpeqB41KTSkHDf5xNBDG7Hvh1Oq1JyWKs4PaxkO04MagXdN21gIGz+E5djsEXA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-crypto/sha256-js': ^5.0.0
@@ -5346,7 +5346,7 @@ packages:
         optional: true
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
-      '@langchain/core': 0.0.9
+      '@langchain/core': 0.0.10
       '@supabase/supabase-js': 2.39.0
       '@vercel/kv': 0.2.4
       binary-extensions: 2.2.0
@@ -5373,17 +5373,6 @@ packages:
 
   /langchainhub@0.0.6:
     resolution: {integrity: sha512-SW6105T+YP1cTe0yMf//7kyshCgvCTyFBMTgH2H3s9rTAR4e+78DA/BBrUL/Mt4Q5eMWui7iGuAYb3pgGsdQ9w==}
-    dev: false
-
-  /langsmith@0.0.48:
-    resolution: {integrity: sha512-s0hW8iZ90Q9XLTnDK0Pgee245URV3b1cXQjPDj5OKm1+KN7iSK1pKx+4CO7RcFLz58Ixe7Mt+mVcomYqUuryxQ==}
-    hasBin: true
-    dependencies:
-      '@types/uuid': 9.0.7
-      commander: 10.0.1
-      p-queue: 6.6.2
-      p-retry: 4.6.2
-      uuid: 9.0.1
     dev: false
 
   /langsmith@0.0.49:
@@ -5480,7 +5469,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /lru-cache@6.0.0:
@@ -5662,7 +5651,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /node-domexception@1.0.0:
