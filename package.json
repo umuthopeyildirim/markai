@@ -30,7 +30,7 @@
 		"@types/lodash.debounce": "^4.0.9",
 		"@types/luxon": "^3.3.7",
 		"@types/node": "^20.10.4",
-		"@types/react": "^18.2.42",
+		"@types/react": "^18.2.43",
 		"@types/react-dom": "^18.2.17",
 		"@upstash/ratelimit": "^1.0.0",
 		"@vercel/analytics": "^1.1.1",
