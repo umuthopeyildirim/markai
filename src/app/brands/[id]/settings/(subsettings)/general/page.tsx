@@ -442,7 +442,6 @@ export default function Page() {
 									color="success"
 									variant="light"
 									onPress={onClose}
-									placeholder={brand?.name}
 								>
 									Close
 								</Button>
