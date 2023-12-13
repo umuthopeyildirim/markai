@@ -69,8 +69,8 @@ dependencies:
     specifier: ^10.16.16
     version: 10.16.16(react-dom@18.2.0)(react@18.2.0)
   langchain:
-    specifier: ^0.0.204
-    version: 0.0.204(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1)
+    specifier: ^0.0.206
+    version: 0.0.206(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -477,8 +477,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@langchain/community@0.0.2(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4):
-    resolution: {integrity: sha512-C4wu+IoFbvM0ndSE3etVjqzw7K7vCCN+qIuus2/c0LTJXlhR07o2cR2m45rJkLngmi7akYir+wyRop0eauFuog==}
+  /@langchain/community@0.0.4(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4):
+    resolution: {integrity: sha512-SV2QMR/rCam7MSuhXBa76H7wwT6/F2J+D+yo6k5F3erZbf3K56Gd8qU2aYktgJ36ye9UWRXHLixaGVjLlP5cyQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-crypto/sha256-js': ^5.0.0
@@ -529,6 +529,7 @@ packages:
       closevector-web: 0.1.0-alpha.16
       cohere-ai: '>=6.0.0'
       convex: ^1.3.1
+      discord.js: ^14.14.1
       faiss-node: ^0.5.1
       firebase-admin: ^11.9.0
       google-auth-library: ^8.9.0
@@ -654,6 +655,8 @@ packages:
         optional: true
       convex:
         optional: true
+      discord.js:
+        optional: true
       faiss-node:
         optional: true
       firebase-admin:
@@ -711,8 +714,8 @@ packages:
       ws:
         optional: true
     dependencies:
-      '@langchain/core': 0.0.11
-      '@langchain/openai': 0.0.2
+      '@langchain/core': 0.1.1
+      '@langchain/openai': 0.0.5
       '@supabase/supabase-js': 2.39.0
       '@vercel/kv': 0.2.4
       flat: 5.0.2
@@ -723,8 +726,8 @@ packages:
       - encoding
     dev: false
 
-  /@langchain/core@0.0.11:
-    resolution: {integrity: sha512-tiESyyHM1KO1gRTduKcznWbEmE7z/ayPLWZ4+AUXF47qOtdV6lymnlMPzz+MGwnpaSaamzyYkBIxqeMPar256Q==}
+  /@langchain/core@0.1.1:
+    resolution: {integrity: sha512-p+BzmILzGAWjHxzNy1ZygfsNWxZcipWH3zvY0WC33ly+nmBp4n+MCVd25hKQ4YYWOqoOGGWSzFJukd5PxaXMDQ==}
     engines: {node: '>=18'}
     dependencies:
       ansi-styles: 5.2.0
@@ -739,11 +742,11 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@langchain/openai@0.0.2:
-    resolution: {integrity: sha512-GhiC8afAjta37fXFPiEjTmJ3Uof9HNoahLAxPGjhN1pJrUPisA6nXhsqp6Iab281GN5Xxdms5YsV7BwrfsUt2Q==}
+  /@langchain/openai@0.0.5:
+    resolution: {integrity: sha512-ojNx33zQPk29otCeeO4wn8Je79KMGWXcXe2ofUSL4VxK3EC6BuSeINzfODozP7KhQ24TWo7DKkl7vBqPzTI98w==}
     engines: {node: '>=18'}
     dependencies:
-      '@langchain/core': 0.0.11
+      '@langchain/core': 0.1.1
       js-tiktoken: 1.0.8
       openai: 4.20.1
       zod: 3.22.4
@@ -5296,8 +5299,8 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.0.204(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1):
-    resolution: {integrity: sha512-fLTgPhheCE/4SXsj1C5t+txbBbVtfN9dNoKysDPxGyRUZHycSd3A+cEyn7dJJGYHZxRMc7EQgg7yffxzrM7c0A==}
+  /langchain@0.0.206(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1):
+    resolution: {integrity: sha512-WjBN13hME6OtCVUg9HOzl84QMJLa500BR9B3kapzpHOCJ6kedm7lBHzKK4VSfqXd1B6eecyg3tsvqd+Y8knGlQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-sdk/client-s3': ^3.310.0
@@ -5456,9 +5459,9 @@ packages:
         optional: true
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
-      '@langchain/community': 0.0.2(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)
-      '@langchain/core': 0.0.11
-      '@langchain/openai': 0.0.2
+      '@langchain/community': 0.0.4(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)
+      '@langchain/core': 0.1.1
+      '@langchain/openai': 0.0.5
       '@supabase/supabase-js': 2.39.0
       '@vercel/kv': 0.2.4
       binary-extensions: 2.2.0
@@ -5514,6 +5517,7 @@ packages:
       - closevector-node
       - closevector-web
       - cohere-ai
+      - discord.js
       - encoding
       - firebase-admin
       - hnswlib-node
