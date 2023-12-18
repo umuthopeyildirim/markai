@@ -69,8 +69,8 @@ dependencies:
     specifier: ^10.16.16
     version: 10.16.16(react-dom@18.2.0)(react@18.2.0)
   langchain:
-    specifier: ^0.0.206
-    version: 0.0.206(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1)
+    specifier: ^0.0.209
+    version: 0.0.209(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -477,8 +477,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@langchain/community@0.0.4(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4):
-    resolution: {integrity: sha512-SV2QMR/rCam7MSuhXBa76H7wwT6/F2J+D+yo6k5F3erZbf3K56Gd8qU2aYktgJ36ye9UWRXHLixaGVjLlP5cyQ==}
+  /@langchain/community@0.0.7(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4):
+    resolution: {integrity: sha512-4O41IF8Cirqbb/SC7xNecxUIjuHX7HZkOlEgj98Zex+UuBF4aggPawUAJnP7+ak30PfOxH7NymnIWcs4MqRfxg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-crypto/sha256-js': ^5.0.0
@@ -714,8 +714,8 @@ packages:
       ws:
         optional: true
     dependencies:
-      '@langchain/core': 0.1.1
-      '@langchain/openai': 0.0.5
+      '@langchain/core': 0.1.2
+      '@langchain/openai': 0.0.6
       '@supabase/supabase-js': 2.39.0
       '@vercel/kv': 0.2.4
       flat: 5.0.2
@@ -726,8 +726,8 @@ packages:
       - encoding
     dev: false
 
-  /@langchain/core@0.1.1:
-    resolution: {integrity: sha512-p+BzmILzGAWjHxzNy1ZygfsNWxZcipWH3zvY0WC33ly+nmBp4n+MCVd25hKQ4YYWOqoOGGWSzFJukd5PxaXMDQ==}
+  /@langchain/core@0.1.2:
+    resolution: {integrity: sha512-BX9vBovUi+FQLsUy+kh32kGtNU3Iv5GIBDB63xfCvAPefrt/WnqdsqwYnaXMB2MohBcZavIVMewHymsgiEYNcQ==}
     engines: {node: '>=18'}
     dependencies:
       ansi-styles: 5.2.0
@@ -742,11 +742,11 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@langchain/openai@0.0.5:
-    resolution: {integrity: sha512-ojNx33zQPk29otCeeO4wn8Je79KMGWXcXe2ofUSL4VxK3EC6BuSeINzfODozP7KhQ24TWo7DKkl7vBqPzTI98w==}
+  /@langchain/openai@0.0.6:
+    resolution: {integrity: sha512-t4ZzBAPfBCHk56MyS/BlSzEHyXEJ6LLhw3QTjqt8+QKfl8U31pSKDOe3xuVveM2YqpaoVAqWY27DHUKNTZ0gNg==}
     engines: {node: '>=18'}
     dependencies:
-      '@langchain/core': 0.1.1
+      '@langchain/core': 0.1.2
       js-tiktoken: 1.0.8
       openai: 4.21.0
       zod: 3.22.4
@@ -5299,8 +5299,8 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.0.206(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1):
-    resolution: {integrity: sha512-WjBN13hME6OtCVUg9HOzl84QMJLa500BR9B3kapzpHOCJ6kedm7lBHzKK4VSfqXd1B6eecyg3tsvqd+Y8knGlQ==}
+  /langchain@0.0.209(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1):
+    resolution: {integrity: sha512-5+ixk2z6XP7NiPqAinrolwd4LKA4b+gWDiFHGaMnk3AHeOnquUHEEqDXghuQrMpr93p8egwO9AgmpKpAIvznFg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-sdk/client-s3': ^3.310.0
@@ -5319,7 +5319,7 @@ packages:
       '@vercel/kv': ^0.2.3
       '@xata.io/client': ^0.28.0
       apify-client: ^2.7.1
-      assemblyai: ^2.0.2
+      assemblyai: ^4.0.0
       axios: '*'
       cheerio: ^1.0.0-rc.12
       chromadb: '*'
@@ -5459,9 +5459,9 @@ packages:
         optional: true
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
-      '@langchain/community': 0.0.4(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)
-      '@langchain/core': 0.1.1
-      '@langchain/openai': 0.0.5
+      '@langchain/community': 0.0.7(@supabase/supabase-js@2.39.0)(@vercel/kv@0.2.4)
+      '@langchain/core': 0.1.2
+      '@langchain/openai': 0.0.6
       '@supabase/supabase-js': 2.39.0
       '@vercel/kv': 0.2.4
       binary-extensions: 2.2.0
@@ -5633,7 +5633,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /lru-cache@6.0.0:
@@ -5816,7 +5816,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /node-domexception@1.0.0:
