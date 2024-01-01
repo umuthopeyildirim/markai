@@ -69,8 +69,8 @@ dependencies:
     specifier: ^10.16.16
     version: 10.16.16(react-dom@18.2.0)(react@18.2.0)
   langchain:
-    specifier: ^0.0.212
-    version: 0.0.212(@supabase/supabase-js@2.39.1)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1)
+    specifier: ^0.0.213
+    version: 0.0.213(@supabase/supabase-js@2.39.1)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -489,8 +489,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@langchain/community@0.0.11(@supabase/supabase-js@2.39.1)(@vercel/kv@0.2.4):
-    resolution: {integrity: sha512-8L19AyzBueHrRtawxU4JstRtmzqsHK2jDJtSg/bv9ivto0kDKlILnauIDijcb09V/4mql2XolaS9r7eGe99yGA==}
+  /@langchain/community@0.0.12(@supabase/supabase-js@2.39.1)(@vercel/kv@0.2.4):
+    resolution: {integrity: sha512-mcm6FxxnLxSx9PiYvehGGwvcHjsVR5WXfYOwymojf/6d0apyewjOLzKsR3xx0HJVtCs8pff7NZSdDoE+jj8OcA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-crypto/sha256-js': ^5.0.0
@@ -729,8 +729,8 @@ packages:
       ws:
         optional: true
     dependencies:
-      '@langchain/core': 0.1.4
-      '@langchain/openai': 0.0.8
+      '@langchain/core': 0.1.6
+      '@langchain/openai': 0.0.9
       '@supabase/supabase-js': 2.39.1
       '@vercel/kv': 0.2.4
       flat: 5.0.2
@@ -741,8 +741,8 @@ packages:
       - encoding
     dev: false
 
-  /@langchain/core@0.1.4:
-    resolution: {integrity: sha512-Y3/mQLEiQ78ZbsTGYvPRj5bpvrhpTAcsbdyEtlYEvjMLbehEADfjQ41G9zc7U/emkrGtHRmxWO1ISmoeXeDmyQ==}
+  /@langchain/core@0.1.6:
+    resolution: {integrity: sha512-mBXsHHAWgDYJPzPNwOLWXJob3DAlO1tXBybu9cJ+zcVzixiSh/oxQ5eonTK6nlFwO6kGpaIcCD9l9+yq/WCMBg==}
     engines: {node: '>=18'}
     dependencies:
       ansi-styles: 5.2.0
@@ -757,11 +757,11 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@langchain/openai@0.0.8:
-    resolution: {integrity: sha512-F8DD6vs5BvMAHiDprINWCVf7jyNaYHp2zAqHwYij3+YAKsgIORm2EQvI6YtT3qPnGghpE3qz8H3DKjTNPywIzQ==}
+  /@langchain/openai@0.0.9:
+    resolution: {integrity: sha512-Py7rJijOjNtb9pj5He+E9uAj9d8PCX+8Ix4LvY7cUTMCDlfkhngw2DhJ8wlk23u1IvunakdnnN74pfbO2JJBrw==}
     engines: {node: '>=18'}
     dependencies:
-      '@langchain/core': 0.1.4
+      '@langchain/core': 0.1.6
       js-tiktoken: 1.0.8
       openai: 4.24.1
       zod: 3.22.4
@@ -5362,8 +5362,8 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.0.212(@supabase/supabase-js@2.39.1)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1):
-    resolution: {integrity: sha512-zPcnAX3t1RuyWkbEkyqlIdR29j51Eylz7rcDcqET1baquR/r9xuk7P/HAJ6TFowiXDUg10d5YBD6VBvjwF/WDA==}
+  /langchain@0.0.213(@supabase/supabase-js@2.39.1)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1):
+    resolution: {integrity: sha512-nQDOJXvtIAIuUzamCiF1AWyi2GH9FSDPR+3XulJUEpdU60aSFPZ9GBiWdu+dVHXeAmm8C0iCVi0+3GWLJrUoXA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-sdk/client-s3': ^3.310.0
@@ -5522,9 +5522,9 @@ packages:
         optional: true
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
-      '@langchain/community': 0.0.11(@supabase/supabase-js@2.39.1)(@vercel/kv@0.2.4)
-      '@langchain/core': 0.1.4
-      '@langchain/openai': 0.0.8
+      '@langchain/community': 0.0.12(@supabase/supabase-js@2.39.1)(@vercel/kv@0.2.4)
+      '@langchain/core': 0.1.6
+      '@langchain/openai': 0.0.9
       '@supabase/supabase-js': 2.39.1
       '@vercel/kv': 0.2.4
       binary-extensions: 2.2.0
@@ -5697,7 +5697,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /lru-cache@10.1.0:
@@ -5897,7 +5897,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /node-domexception@1.0.0:
