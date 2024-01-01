@@ -38,7 +38,7 @@
 		"ai": "^2.2.30",
 		"autoprefixer": "^10.4.16",
 		"cheerio": "1.0.0-rc.12",
-		"clsx": "^2.0.0",
+		"clsx": "^2.1.0",
 		"eslint": "^8.56.0",
 		"eslint-config-next": "^14.0.4",
 		"framer-motion": "^10.16.16",
