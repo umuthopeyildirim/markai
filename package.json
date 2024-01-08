@@ -41,7 +41,7 @@
 		"clsx": "^2.1.0",
 		"eslint": "^8.56.0",
 		"eslint-config-next": "^14.0.4",
-		"framer-motion": "^10.17.6",
+		"framer-motion": "^10.17.9",
 		"langchain": "^0.0.214",
 		"lodash.debounce": "^4.0.8",
 		"luxon": "^3.4.4",
