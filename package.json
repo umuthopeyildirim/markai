@@ -21,7 +21,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"@clerk/nextjs": "^4.29.3",
+		"@clerk/nextjs": "^4.29.4",
 		"@clerk/themes": "^1.7.9",
 		"@datadog/browser-rum": "^5.7.0",
 		"@nextui-org/react": "^2.2.9",
