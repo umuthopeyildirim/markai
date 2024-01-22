@@ -69,8 +69,8 @@ dependencies:
     specifier: ^10.18.0
     version: 10.18.0(react-dom@18.2.0)(react@18.2.0)
   langchain:
-    specifier: ^0.1.2
-    version: 0.1.2(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1)
+    specifier: ^0.1.5
+    version: 0.1.5(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -732,8 +732,8 @@ packages:
       ws:
         optional: true
     dependencies:
-      '@langchain/core': 0.1.12
-      '@langchain/openai': 0.0.11
+      '@langchain/core': 0.1.17
+      '@langchain/openai': 0.0.12
       '@supabase/supabase-js': 2.39.3
       '@vercel/kv': 0.2.4
       flat: 5.0.2
@@ -744,8 +744,8 @@ packages:
       - encoding
     dev: false
 
-  /@langchain/core@0.1.12:
-    resolution: {integrity: sha512-lBfPEjcizJzkZjVTNJp0j+a85BFaXEjzyiUlsh7GwZRERwkrMEV2vtCSRrujbsnZcHzxN67K2bL02KHNLgWkOg==}
+  /@langchain/core@0.1.17:
+    resolution: {integrity: sha512-PNmQgyAsDFm3DsZD+Djmm+sxH8xTGMlAryhYNgTg1Wkvhh+ztCqcVVYAv+aWch8CM56FBYMD8Guq0TJuRJJxEA==}
     engines: {node: '>=18'}
     dependencies:
       ansi-styles: 5.2.0
@@ -758,13 +758,14 @@ packages:
       p-retry: 4.6.2
       uuid: 9.0.1
       zod: 3.22.4
+      zod-to-json-schema: 3.22.3(zod@3.22.4)
     dev: false
 
-  /@langchain/openai@0.0.11:
-    resolution: {integrity: sha512-km0N+b1bcbtHVDmTEGs7LJFsCrjAcOMnkYlBQrhuIcyhJ052iF4zPpfptScQcZ25dW1yJJI8DS6dVVeM76l52w==}
+  /@langchain/openai@0.0.12:
+    resolution: {integrity: sha512-MR9x1xRXwJpdYlVx9Tga89q/MvxPrSTYyA5vy9tQ8dfQHNWnlgmI4gB/hDIsWUu1ooScagD4wW+aTnohTX+g+g==}
     engines: {node: '>=18'}
     dependencies:
-      '@langchain/core': 0.1.12
+      '@langchain/core': 0.1.17
       js-tiktoken: 1.0.8
       openai: 4.24.7
       zod: 3.22.4
@@ -5362,8 +5363,8 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.1.2(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1):
-    resolution: {integrity: sha512-sJbVvIabjmsKDsIdfSiojHOg1EXbVsuVH6Y12rproGwYNRdQZ5zhikW+RttuRSmmEfCVfaGV5++nzYes9/jVAg==}
+  /langchain@0.1.5(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.40.1):
+    resolution: {integrity: sha512-ku/4cHV+CaAlaTegjsGhsbaDdtFQi6OQW10Gi6JJvbX093XRADLRtIYYR5XLm7eFt6ZgvHszdQ55nSQqAgfjAg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-sdk/client-s3': ^3.310.0
@@ -5526,8 +5527,8 @@ packages:
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
       '@langchain/community': 0.0.17(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)
-      '@langchain/core': 0.1.12
-      '@langchain/openai': 0.0.11
+      '@langchain/core': 0.1.17
+      '@langchain/openai': 0.0.12
       '@supabase/supabase-js': 2.39.3
       '@vercel/kv': 0.2.4
       binary-extensions: 2.2.0
@@ -5545,7 +5546,7 @@ packages:
       uuid: 9.0.1
       yaml: 2.3.4
       zod: 3.22.4
-      zod-to-json-schema: 3.20.3(zod@3.22.4)
+      zod-to-json-schema: 3.22.3(zod@3.22.4)
     transitivePeerDependencies:
       - '@aws-crypto/sha256-js'
       - '@aws-sdk/client-bedrock-runtime'
@@ -7446,6 +7447,14 @@ packages:
     resolution: {integrity: sha512-/Q3wnyxAfCt94ZcrGiXXoiAfRqasxl9CX64LZ9fj+4dKH68zulUtU0uk1WMxQPfAxQ0ZI70dKzcoW7hHj+DwSQ==}
     peerDependencies:
       zod: ^3.20.0
+    dependencies:
+      zod: 3.22.4
+    dev: false
+
+  /zod-to-json-schema@3.22.3(zod@3.22.4):
+    resolution: {integrity: sha512-9isG8SqRe07p+Aio2ruBZmLm2Q6Sq4EqmXOiNpDxp+7f0LV6Q/LX65fs5Nn+FV/CzfF3NLBoksXbS2jNYIfpKw==}
+    peerDependencies:
+      zod: ^3.22.4
     dependencies:
       zod: 3.22.4
     dev: false
