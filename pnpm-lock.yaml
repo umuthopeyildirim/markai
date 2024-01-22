@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.7.9
     version: 1.7.9(react@18.2.0)
   '@datadog/browser-rum':
-    specifier: ^5.7.0
-    version: 5.7.0
+    specifier: ^5.8.0
+    version: 5.8.0
   '@nextui-org/react':
     specifier: ^2.2.9
     version: 2.2.9(@types/react@18.2.48)(framer-motion@10.18.0)(react-dom@18.2.0)(react@18.2.0)(tailwind-variants@0.1.20)(tailwindcss@3.4.1)
@@ -302,26 +302,26 @@ packages:
       csstype: 3.1.1
     dev: false
 
-  /@datadog/browser-core@5.7.0:
-    resolution: {integrity: sha512-rNUe3s5XD+9UUe/muYuh/UJzb0YXTRwSP1VevMRZmEpNgkBhurWjqjm3LQphYXMYsmQIgvqDPWm05Z+jOxTzRw==}
+  /@datadog/browser-core@5.8.0:
+    resolution: {integrity: sha512-aNMSB+tLu5aKm/uzswy5d6KDgGtMs2uMxsGWdZ3lmqorEHLXk5kPNTEVRJfeE49EJaWaxiTYQuuuLo0c5S0rUA==}
     dev: false
 
-  /@datadog/browser-rum-core@5.7.0:
-    resolution: {integrity: sha512-ZWDkyMprM0QBQhKhEZnfux8EE9STPa1wl/rAjY/+dBRqrGi1bEqigSgy7GiwiCag1Wn9GEjLXS5opqmoO/fpQw==}
+  /@datadog/browser-rum-core@5.8.0:
+    resolution: {integrity: sha512-UtWVR7z8qXvt0Ik10KjjG6Ueck1JLOXcfY00Vv2TttQ73hepL1NUlSDjdMyobySc/990ROvWkCYTIvhtqWFDFw==}
     dependencies:
-      '@datadog/browser-core': 5.7.0
+      '@datadog/browser-core': 5.8.0
     dev: false
 
-  /@datadog/browser-rum@5.7.0:
-    resolution: {integrity: sha512-I+1QslFl4vteoJQBAtBYPgiWa1rFZ/DoNZsOqsKGJjpql0omv5fvdjwbSTBBT5wfLnzo/FnfHogynFpB+JP0rg==}
+  /@datadog/browser-rum@5.8.0:
+    resolution: {integrity: sha512-WtWRQa41d/G4TRs4PwbMM82i56Fsjov9b/B1go0ocqIqUkaJYdTBqQCIcJo3xmCZrgmxSlPiPgEgB5shhVDXxA==}
     peerDependencies:
-      '@datadog/browser-logs': 5.7.0
+      '@datadog/browser-logs': 5.8.0
     peerDependenciesMeta:
       '@datadog/browser-logs':
         optional: true
     dependencies:
-      '@datadog/browser-core': 5.7.0
-      '@datadog/browser-rum-core': 5.7.0
+      '@datadog/browser-core': 5.8.0
+      '@datadog/browser-rum-core': 5.8.0
     dev: false
 
   /@emotion/is-prop-valid@0.8.8:
