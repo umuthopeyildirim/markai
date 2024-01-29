@@ -69,8 +69,8 @@ dependencies:
     specifier: ^10.18.0
     version: 10.18.0(react-dom@18.2.0)(react@18.2.0)
   langchain:
-    specifier: ^0.1.5
-    version: 0.1.5(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.41.1)
+    specifier: ^0.1.9
+    version: 0.1.9(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.41.1)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -494,11 +494,12 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@langchain/community@0.0.19(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4):
-    resolution: {integrity: sha512-4+vpEINOvCZVqjcVVmctvA7ewMSopRbqJ/leDx7hvkeW1iC/aZJDqzWZPxiYNM0VxmB8qeTPFSMB0l4AKwO74w==}
+  /@langchain/community@0.0.21(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4):
+    resolution: {integrity: sha512-2b3azTwY3i4hKeNpxXhZ34h9CQHvPu1kNTxAT8mSuOwkA0ZZ+DQ1niOT0Ai1K0ZrSyice5aivgvy6v7Jf0yFZw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-crypto/sha256-js': ^5.0.0
+      '@aws-sdk/client-bedrock-agent-runtime': ^3.485.0
       '@aws-sdk/client-bedrock-runtime': ^3.422.0
       '@aws-sdk/client-dynamodb': ^3.310.0
       '@aws-sdk/client-kendra': ^3.352.0
@@ -506,9 +507,10 @@ packages:
       '@aws-sdk/client-sagemaker-runtime': ^3.310.0
       '@aws-sdk/client-sfn': ^3.310.0
       '@aws-sdk/credential-provider-node': ^3.388.0
+      '@azure/search-documents': ^12.0.0
       '@clickhouse/client': ^0.2.5
       '@cloudflare/ai': ^1.0.12
-      '@datastax/astra-db-ts': 0.1.2
+      '@datastax/astra-db-ts': ^0.1.4
       '@elastic/elasticsearch': ^8.4.0
       '@getmetal/metal-sdk': '*'
       '@getzep/zep-js': ^0.9.0
@@ -580,6 +582,8 @@ packages:
     peerDependenciesMeta:
       '@aws-crypto/sha256-js':
         optional: true
+      '@aws-sdk/client-bedrock-agent-runtime':
+        optional: true
       '@aws-sdk/client-bedrock-runtime':
         optional: true
       '@aws-sdk/client-dynamodb':
@@ -593,6 +597,8 @@ packages:
       '@aws-sdk/client-sfn':
         optional: true
       '@aws-sdk/credential-provider-node':
+        optional: true
+      '@azure/search-documents':
         optional: true
       '@clickhouse/client':
         optional: true
@@ -5376,8 +5382,8 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.1.5(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.41.1):
-    resolution: {integrity: sha512-ku/4cHV+CaAlaTegjsGhsbaDdtFQi6OQW10Gi6JJvbX093XRADLRtIYYR5XLm7eFt6ZgvHszdQ55nSQqAgfjAg==}
+  /langchain@0.1.9(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.41.1):
+    resolution: {integrity: sha512-4Gm2j8gsT43d4sgpjM7JMSoB83dwxbiLYdcPx23Xi6RfLQ60QB86bogPYqn84ZW9HjrW8IVMXvVyC6DAHNCyIg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-sdk/client-s3': ^3.310.0
@@ -5391,7 +5397,7 @@ packages:
       '@google-ai/generativelanguage': ^0.2.1
       '@google-cloud/storage': ^6.10.1
       '@notionhq/client': ^2.2.10
-      '@pinecone-database/pinecone': ^1.1.0
+      '@pinecone-database/pinecone': '*'
       '@supabase/supabase-js': ^2.10.0
       '@vercel/kv': ^0.2.3
       '@xata.io/client': ^0.28.0
@@ -5539,7 +5545,7 @@ packages:
         optional: true
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
-      '@langchain/community': 0.0.19(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)
+      '@langchain/community': 0.0.21(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)
       '@langchain/core': 0.1.17
       '@langchain/openai': 0.0.12
       '@supabase/supabase-js': 2.39.3
@@ -5562,10 +5568,12 @@ packages:
       zod-to-json-schema: 3.22.3(zod@3.22.4)
     transitivePeerDependencies:
       - '@aws-crypto/sha256-js'
+      - '@aws-sdk/client-bedrock-agent-runtime'
       - '@aws-sdk/client-bedrock-runtime'
       - '@aws-sdk/client-dynamodb'
       - '@aws-sdk/client-kendra'
       - '@aws-sdk/client-lambda'
+      - '@azure/search-documents'
       - '@clickhouse/client'
       - '@cloudflare/ai'
       - '@datastax/astra-db-ts'
@@ -5711,7 +5719,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /lru-cache@10.1.0:
@@ -5910,7 +5918,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /node-domexception@1.0.0:
