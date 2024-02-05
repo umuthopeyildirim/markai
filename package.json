@@ -35,7 +35,7 @@
 		"@upstash/ratelimit": "^1.0.0",
 		"@vercel/analytics": "^1.1.2",
 		"@vercel/kv": "^0.2.4",
-		"ai": "^2.2.32",
+		"ai": "^2.2.33",
 		"autoprefixer": "^10.4.17",
 		"cheerio": "1.0.0-rc.12",
 		"clsx": "^2.1.0",
