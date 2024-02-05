@@ -69,8 +69,8 @@ dependencies:
     specifier: ^11.0.3
     version: 11.0.3(react-dom@18.2.0)(react@18.2.0)
   langchain:
-    specifier: ^0.1.11
-    version: 0.1.11(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.41.1)
+    specifier: ^0.1.13
+    version: 0.1.13(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.41.1)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -5382,8 +5382,8 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.1.11(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.41.1):
-    resolution: {integrity: sha512-Ma1QW8pX0BAgnmgL5J97WQ17Ir46b8lWiZ3s+sK5iS6zicJzalx0J9FUdFg4XAFzLj6Dy1oHoXcupjrOZLQGOA==}
+  /langchain@0.1.13(@supabase/supabase-js@2.39.3)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.41.1):
+    resolution: {integrity: sha512-A56Qi5Jlxc3b/G9ny/B6gsqujFp9dFpnT7HIKFCq/mS/5foCb0nQ8P2F/Pwv8COg6b/be9Gwu1WQ97L93uE+dw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-sdk/client-s3': ^3.310.0
@@ -5412,7 +5412,6 @@ packages:
       faiss-node: '*'
       fast-xml-parser: ^4.2.7
       google-auth-library: ^8.9.0
-      googleapis: ^126.0.1
       handlebars: ^4.7.8
       html-to-text: ^9.0.5
       ignore: ^5.2.0
@@ -5490,8 +5489,6 @@ packages:
       fast-xml-parser:
         optional: true
       google-auth-library:
-        optional: true
-      googleapis:
         optional: true
       handlebars:
         optional: true
@@ -5609,6 +5606,7 @@ packages:
       - discord.js
       - encoding
       - firebase-admin
+      - googleapis
       - hnswlib-node
       - llmonitor
       - lodash
@@ -5719,7 +5717,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /lru-cache@10.2.0:
@@ -5918,7 +5916,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /node-domexception@1.0.0:
