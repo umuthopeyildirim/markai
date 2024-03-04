@@ -47,7 +47,7 @@
 		"luxon": "^3.4.4",
 		"next": "^14.1.0",
 		"openai": "^4.28.4",
-		"playwright": "^1.42.0",
+		"playwright": "^1.42.1",
 		"postcss": "^8.4.35",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
