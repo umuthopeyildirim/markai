@@ -40,7 +40,7 @@
 		"cheerio": "1.0.0-rc.12",
 		"clsx": "^2.1.0",
 		"eslint": "^8.57.0",
-		"eslint-config-next": "^14.1.0",
+		"eslint-config-next": "^14.1.1",
 		"framer-motion": "^11.0.6",
 		"langchain": "^0.1.24",
 		"lodash.debounce": "^4.0.8",
