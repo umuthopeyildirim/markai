@@ -69,8 +69,8 @@ dependencies:
     specifier: ^11.0.8
     version: 11.0.8(react-dom@18.2.0)(react@18.2.0)
   langchain:
-    specifier: ^0.1.25
-    version: 0.1.25(@supabase/supabase-js@2.39.7)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.42.1)
+    specifier: ^0.1.26
+    version: 0.1.26(@supabase/supabase-js@2.39.7)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.42.1)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -494,8 +494,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@langchain/community@0.0.34(@supabase/supabase-js@2.39.7)(@vercel/kv@0.2.4):
-    resolution: {integrity: sha512-eU3VyK7dZ3S05E4IQ3IVb3B8Ja/GaNDHaXhfjUJfZLOwyZrrLMhshGRIbbO+iMqJz8omGK761QK14v0G0/U3iw==}
+  /@langchain/community@0.0.36(@supabase/supabase-js@2.39.7)(@vercel/kv@0.2.4):
+    resolution: {integrity: sha512-4OOKH6F9orGZZHgbvYvekMV6JesL89JC3cmJxNvAr5x7vr7wNNa4fuLq+H7Ew8tnsQOYZk+K57UMYkcwVuwySA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-crypto/sha256-js': ^5.0.0
@@ -752,8 +752,8 @@ packages:
       ws:
         optional: true
     dependencies:
-      '@langchain/core': 0.1.40
-      '@langchain/openai': 0.0.15
+      '@langchain/core': 0.1.44
+      '@langchain/openai': 0.0.19
       '@supabase/supabase-js': 2.39.7
       '@vercel/kv': 0.2.4
       flat: 5.0.2
@@ -764,8 +764,8 @@ packages:
       - encoding
     dev: false
 
-  /@langchain/core@0.1.40:
-    resolution: {integrity: sha512-TNX7swnPNFNXftsFMuXLkPhk+9/tE2veLFzuiiuIi0Mz/+jgPi4klHx9jxS8+DHPgMvKzmwsoE8U879iPByXjw==}
+  /@langchain/core@0.1.44:
+    resolution: {integrity: sha512-6kzRRf8X1TgkAfc8xOZ1qCHalasPDxdcNLnL++ZCGtWLyiKMFP7HcDwG/UewYsbqQd3sTQUPiP9+PHdPWXHd/Q==}
     engines: {node: '>=18'}
     dependencies:
       ansi-styles: 5.2.0
@@ -781,11 +781,11 @@ packages:
       zod-to-json-schema: 3.22.4(zod@3.22.4)
     dev: false
 
-  /@langchain/openai@0.0.15:
-    resolution: {integrity: sha512-ILecml9YopmQxfpaquYEG+KfEz7svJqpcla671J1tVngqtPwRqg9PLUOa2eDrPsunScxKUeLd8HjAGLd/eaefQ==}
+  /@langchain/openai@0.0.19:
+    resolution: {integrity: sha512-b1CHZCNVc2u4LZbFc1Ls0T7U4LWNGvMeQsrNidLZT5jbjg6VzzDZuVCDPGqCwUc8bzFWvPBO52oT1Wy+aCOX6w==}
     engines: {node: '>=18'}
     dependencies:
-      '@langchain/core': 0.1.40
+      '@langchain/core': 0.1.44
       js-tiktoken: 1.0.10
       openai: 4.28.4
       zod: 3.22.4
@@ -5470,8 +5470,8 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.1.25(@supabase/supabase-js@2.39.7)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.42.1):
-    resolution: {integrity: sha512-sfEChvr4H2CklHdSByNBbytwBrFhgtA5kPOnwcBrxuXGg1iOaTzhVxQA0QcNcQucI3hZrsNbZjxGp+Can1ooZQ==}
+  /langchain@0.1.26(@supabase/supabase-js@2.39.7)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.42.1):
+    resolution: {integrity: sha512-2hCXDev/KkBKNHCrxqq7XQxAp/kpjMtwlIuKBzaSW8gM+BOrh8q6B9PM3ItbvG4s29JCW7xlJtIEO3LaWChwkQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-sdk/client-s3': ^3.310.0
@@ -5499,7 +5499,7 @@ packages:
       d3-dsv: ^2.0.0
       epub2: ^3.0.1
       faiss-node: '*'
-      fast-xml-parser: ^4.2.7
+      fast-xml-parser: '*'
       google-auth-library: ^8.9.0
       handlebars: ^4.7.8
       html-to-text: ^9.0.5
@@ -5630,9 +5630,9 @@ packages:
         optional: true
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
-      '@langchain/community': 0.0.34(@supabase/supabase-js@2.39.7)(@vercel/kv@0.2.4)
-      '@langchain/core': 0.1.40
-      '@langchain/openai': 0.0.15
+      '@langchain/community': 0.0.36(@supabase/supabase-js@2.39.7)(@vercel/kv@0.2.4)
+      '@langchain/core': 0.1.44
+      '@langchain/openai': 0.0.19
       '@supabase/supabase-js': 2.39.7
       '@vercel/kv': 0.2.4
       binary-extensions: 2.2.0
@@ -5809,7 +5809,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /lru-cache@10.2.0:
@@ -6008,7 +6008,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /node-domexception@1.0.0:
