@@ -69,8 +69,8 @@ dependencies:
     specifier: ^11.0.8
     version: 11.0.8(react-dom@18.2.0)(react@18.2.0)
   langchain:
-    specifier: ^0.1.26
-    version: 0.1.26(@supabase/supabase-js@2.39.7)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.42.1)
+    specifier: ^0.1.28
+    version: 0.1.28(@supabase/supabase-js@2.39.7)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.42.1)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -5474,8 +5474,8 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.1.26(@supabase/supabase-js@2.39.7)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.42.1):
-    resolution: {integrity: sha512-2hCXDev/KkBKNHCrxqq7XQxAp/kpjMtwlIuKBzaSW8gM+BOrh8q6B9PM3ItbvG4s29JCW7xlJtIEO3LaWChwkQ==}
+  /langchain@0.1.28(@supabase/supabase-js@2.39.7)(@vercel/kv@0.2.4)(cheerio@1.0.0-rc.12)(playwright@1.42.1):
+    resolution: {integrity: sha512-LNuILtOSFptfOqDwUwQAl7B0dYrBtxzVZ6lDhc5DA8rk+pyTCy12HQO7t8bGqC8oQlEPYPKaom8VRlvfupUBTw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-sdk/client-s3': ^3.310.0
@@ -5812,7 +5812,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /lru-cache@10.2.0:
@@ -6011,7 +6011,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /node-domexception@1.0.0:
