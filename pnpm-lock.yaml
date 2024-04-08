@@ -21,8 +21,8 @@ dependencies:
     specifier: ^2.2.3
     version: 2.2.3(react-redux@9.1.0)(react@18.2.0)
   '@supabase/supabase-js':
-    specifier: ^2.41.1
-    version: 2.41.1
+    specifier: ^2.42.0
+    version: 2.42.0
   '@types/lodash.debounce':
     specifier: ^4.0.9
     version: 4.0.9
@@ -70,7 +70,7 @@ dependencies:
     version: 11.0.24(react-dom@18.2.0)(react@18.2.0)
   langchain:
     specifier: ^0.1.30
-    version: 0.1.30(@supabase/supabase-js@2.41.1)(@vercel/kv@1.0.1)(cheerio@1.0.0-rc.12)(playwright@1.42.1)
+    version: 0.1.30(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1)(cheerio@1.0.0-rc.12)(playwright@1.42.1)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -482,7 +482,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@langchain/community@0.0.43(@supabase/supabase-js@2.41.1)(@vercel/kv@1.0.1):
+  /@langchain/community@0.0.43(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1):
     resolution: {integrity: sha512-60TjV3knGGOPHfbJxLpuwARr8oA0r6Txm8wTFvFx+TjRUrloyBUcWSbJIdm62gAwBJDEHmdjjyWOOzU+eewcuA==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -760,7 +760,7 @@ packages:
     dependencies:
       '@langchain/core': 0.1.52
       '@langchain/openai': 0.0.25
-      '@supabase/supabase-js': 2.41.1
+      '@supabase/supabase-js': 2.42.0
       '@vercel/kv': 1.0.1
       expr-eval: 2.0.2
       flat: 5.0.2
@@ -3189,8 +3189,8 @@ packages:
       whatwg-url: 5.0.0
     dev: false
 
-  /@supabase/postgrest-js@1.9.2:
-    resolution: {integrity: sha512-I6yHo8CC9cxhOo6DouDMy9uOfW7hjdsnCxZiaJuIVZm1dBGTFiQPgfMa9zXCamEWzNyWRjZvupAUuX+tqcl5Sw==}
+  /@supabase/postgrest-js@1.15.0:
+    resolution: {integrity: sha512-U4bwBOrhsXWqDjZiYNbVqMBtRGgIIYE0kE5ZNSwsIbeBWfr/UxOMrnkIQUBGIZRhpYW/tw1WnTdRl1AGNyaxcw==}
     dependencies:
       '@supabase/node-fetch': 2.6.15
     dev: false
@@ -3213,13 +3213,13 @@ packages:
       '@supabase/node-fetch': 2.6.15
     dev: false
 
-  /@supabase/supabase-js@2.41.1:
-    resolution: {integrity: sha512-xmECLhYugMo/6SObpsOhu5xaxVfsk+JK/d4JSh055bpESmgmN3PLpzbfqejKCpaUeeUNF21+lrJp/U9HQzT9mA==}
+  /@supabase/supabase-js@2.42.0:
+    resolution: {integrity: sha512-1PDqJiA4iG45w3AAu6xkccJ3wPqlGJUoz9CPhScRLLTStxhewYhz0mjryTpXz1kgtNHdUAsirALreezn8UZMjA==}
     dependencies:
       '@supabase/auth-js': 2.63.0
       '@supabase/functions-js': 2.2.2
       '@supabase/node-fetch': 2.6.15
-      '@supabase/postgrest-js': 1.9.2
+      '@supabase/postgrest-js': 1.15.0
       '@supabase/realtime-js': 2.9.3
       '@supabase/storage-js': 2.5.5
     transitivePeerDependencies:
@@ -5549,7 +5549,7 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.1.30(@supabase/supabase-js@2.41.1)(@vercel/kv@1.0.1)(cheerio@1.0.0-rc.12)(playwright@1.42.1):
+  /langchain@0.1.30(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1)(cheerio@1.0.0-rc.12)(playwright@1.42.1):
     resolution: {integrity: sha512-5h/vNMmutQ98tbB0sPDlAileZVca6A2McFgGa3+D56Dm8mSSCzTQL2DngPA6h09DlKDpSr7+6PdFw5Hoj0ZDSw==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -5709,10 +5709,10 @@ packages:
         optional: true
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
-      '@langchain/community': 0.0.43(@supabase/supabase-js@2.41.1)(@vercel/kv@1.0.1)
+      '@langchain/community': 0.0.43(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1)
       '@langchain/core': 0.1.52
       '@langchain/openai': 0.0.25
-      '@supabase/supabase-js': 2.41.1
+      '@supabase/supabase-js': 2.42.0
       '@vercel/kv': 1.0.1
       binary-extensions: 2.3.0
       cheerio: 1.0.0-rc.12
@@ -5891,7 +5891,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /lru-cache@10.2.0:
@@ -6103,7 +6103,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /node-domexception@1.0.0:
