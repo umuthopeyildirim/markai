@@ -45,7 +45,7 @@
 		"langchain": "^0.1.31",
 		"lodash.debounce": "^4.0.8",
 		"luxon": "^3.4.4",
-		"next": "^14.1.4",
+		"next": "^14.2.1",
 		"openai": "^4.33.0",
 		"playwright": "^1.43.0",
 		"postcss": "^8.4.38",
