@@ -21,8 +21,8 @@ dependencies:
     specifier: ^2.2.3
     version: 2.2.3(react-redux@9.1.0)(react@18.2.0)
   '@supabase/supabase-js':
-    specifier: ^2.42.0
-    version: 2.42.0
+    specifier: ^2.42.4
+    version: 2.42.4
   '@types/lodash.debounce':
     specifier: ^4.0.9
     version: 4.0.9
@@ -70,7 +70,7 @@ dependencies:
     version: 11.0.25(react-dom@18.2.0)(react@18.2.0)
   langchain:
     specifier: ^0.1.31
-    version: 0.1.31(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1)(cheerio@1.0.0-rc.12)(playwright@1.43.0)
+    version: 0.1.31(@supabase/supabase-js@2.42.4)(@vercel/kv@1.0.1)(cheerio@1.0.0-rc.12)(playwright@1.43.0)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -482,7 +482,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@langchain/community@0.0.44(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1):
+  /@langchain/community@0.0.44(@supabase/supabase-js@2.42.4)(@vercel/kv@1.0.1):
     resolution: {integrity: sha512-II9Hz90jJmfWRICtxTg1auQWzFw0npqacWiiOpaxNhzs6rptdf56gyfC48Z6n1ii4R8FfAlfX6YxhOE7lGGKXg==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -763,7 +763,7 @@ packages:
     dependencies:
       '@langchain/core': 0.1.54
       '@langchain/openai': 0.0.26
-      '@supabase/supabase-js': 2.42.0
+      '@supabase/supabase-js': 2.42.4
       '@vercel/kv': 1.0.1
       expr-eval: 2.0.2
       flat: 5.0.2
@@ -3180,8 +3180,8 @@ packages:
       '@supabase/node-fetch': 2.6.15
     dev: false
 
-  /@supabase/functions-js@2.2.2:
-    resolution: {integrity: sha512-sJGq1nludmi7pY/fdtCpyY/pYonx7MfHdN408bqb736guWcVI1AChYVbI4kUM978EuOE4Ci6l7bUudfGg07QRw==}
+  /@supabase/functions-js@2.3.0:
+    resolution: {integrity: sha512-GPXzSl4MXdc0P7q+TvE8XgaPdvGBeAJ0p6AN0tbKcezpkp32mpsDf58JXaWOJGyiWSVJn6z1W73eKxf6NZNaFA==}
     dependencies:
       '@supabase/node-fetch': 2.6.15
     dev: false
@@ -3193,14 +3193,14 @@ packages:
       whatwg-url: 5.0.0
     dev: false
 
-  /@supabase/postgrest-js@1.15.0:
-    resolution: {integrity: sha512-U4bwBOrhsXWqDjZiYNbVqMBtRGgIIYE0kE5ZNSwsIbeBWfr/UxOMrnkIQUBGIZRhpYW/tw1WnTdRl1AGNyaxcw==}
+  /@supabase/postgrest-js@1.15.2:
+    resolution: {integrity: sha512-9/7pUmXExvGuEK1yZhVYXPZnLEkDTwxgMQHXLrN5BwPZZm4iUCL1YEyep/Z2lIZah8d8M433mVAUEGsihUj5KQ==}
     dependencies:
       '@supabase/node-fetch': 2.6.15
     dev: false
 
-  /@supabase/realtime-js@2.9.3:
-    resolution: {integrity: sha512-lAp50s2n3FhGJFq+wTSXLNIDPw5Y0Wxrgt44eM5nLSA3jZNUUP3Oq2Ccd1CbZdVntPCWLZvJaU//pAd2NE+QnQ==}
+  /@supabase/realtime-js@2.9.4:
+    resolution: {integrity: sha512-wdq+2hZpgw0r2ldRs87d3U08Y8BrsO1bZxPNqbImpYshAEkusDz4vufR8KaqujKxqewmXS6YnUhuRVdvSEIKCA==}
     dependencies:
       '@supabase/node-fetch': 2.6.15
       '@types/phoenix': 1.6.4
@@ -3217,14 +3217,14 @@ packages:
       '@supabase/node-fetch': 2.6.15
     dev: false
 
-  /@supabase/supabase-js@2.42.0:
-    resolution: {integrity: sha512-1PDqJiA4iG45w3AAu6xkccJ3wPqlGJUoz9CPhScRLLTStxhewYhz0mjryTpXz1kgtNHdUAsirALreezn8UZMjA==}
+  /@supabase/supabase-js@2.42.4:
+    resolution: {integrity: sha512-tRn3wloKnnFdmEr3O2VIaxqzKACpyJ3ymLDmeq0V5lvhkJ+B4VH+QmDrnBbJJUkO2t+IHg65j5jombZxU4yMyw==}
     dependencies:
       '@supabase/auth-js': 2.63.0
-      '@supabase/functions-js': 2.2.2
+      '@supabase/functions-js': 2.3.0
       '@supabase/node-fetch': 2.6.15
-      '@supabase/postgrest-js': 1.15.0
-      '@supabase/realtime-js': 2.9.3
+      '@supabase/postgrest-js': 1.15.2
+      '@supabase/realtime-js': 2.9.4
       '@supabase/storage-js': 2.5.5
     transitivePeerDependencies:
       - bufferutil
@@ -5556,7 +5556,7 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.1.31(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1)(cheerio@1.0.0-rc.12)(playwright@1.43.0):
+  /langchain@0.1.31(@supabase/supabase-js@2.42.4)(@vercel/kv@1.0.1)(cheerio@1.0.0-rc.12)(playwright@1.43.0):
     resolution: {integrity: sha512-J2iZZL48Nwdo1XDU5cS5YYm91b2L6sL3a8hH1gBljvDzCY7jbtUOTuIoRVx5iHN3DXuuLnszS4lhqg0u9hQxBQ==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -5716,10 +5716,10 @@ packages:
         optional: true
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
-      '@langchain/community': 0.0.44(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1)
+      '@langchain/community': 0.0.44(@supabase/supabase-js@2.42.4)(@vercel/kv@1.0.1)
       '@langchain/core': 0.1.54
       '@langchain/openai': 0.0.26
-      '@supabase/supabase-js': 2.42.0
+      '@supabase/supabase-js': 2.42.4
       '@vercel/kv': 1.0.1
       binary-extensions: 2.3.0
       cheerio: 1.0.0-rc.12
@@ -5899,7 +5899,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /lru-cache@10.2.0:
@@ -6105,7 +6105,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /node-domexception@1.0.0:
