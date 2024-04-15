@@ -59,7 +59,7 @@
 	},
 	"devDependencies": {
 		"@builder.io/partytown": "^0.10.1",
-		"@next/bundle-analyzer": "^14.1.4",
+		"@next/bundle-analyzer": "^14.2.1",
 		"cross-env": "^7.0.3",
 		"eslint-config-prettier": "^9.1.0",
 		"prettier": "^3.2.5",
