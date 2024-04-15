@@ -42,7 +42,7 @@
 		"eslint": "^8.57.0",
 		"eslint-config-next": "^14.1.4",
 		"framer-motion": "^11.0.25",
-		"langchain": "^0.1.31",
+		"langchain": "^0.1.33",
 		"lodash.debounce": "^4.0.8",
 		"luxon": "^3.4.4",
 		"next": "^14.1.4",

@@ -69,8 +69,8 @@ dependencies:
     specifier: ^11.0.25
     version: 11.0.25(react-dom@18.2.0)(react@18.2.0)
   langchain:
-    specifier: ^0.1.31
-    version: 0.1.31(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1)(cheerio@1.0.0-rc.12)(playwright@1.43.0)
+    specifier: ^0.1.33
+    version: 0.1.33(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1)(cheerio@1.0.0-rc.12)(playwright@1.43.0)
   lodash.debounce:
     specifier: ^4.0.8
     version: 4.0.8
@@ -482,8 +482,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: false
 
-  /@langchain/community@0.0.44(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1):
-    resolution: {integrity: sha512-II9Hz90jJmfWRICtxTg1auQWzFw0npqacWiiOpaxNhzs6rptdf56gyfC48Z6n1ii4R8FfAlfX6YxhOE7lGGKXg==}
+  /@langchain/community@0.0.48(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1):
+    resolution: {integrity: sha512-jG7dpJkgKtwbrSLsxW4mXmECopTj5tRt4+B+QcKCqZm7yEghFR44Xj5OkDWtzzsjpL47RJck5AJ8MsQnmi7WDQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-crypto/sha256-js': ^5.0.0
@@ -498,7 +498,7 @@ packages:
       '@azure/search-documents': ^12.0.0
       '@clickhouse/client': ^0.2.5
       '@cloudflare/ai': '*'
-      '@datastax/astra-db-ts': ^0.1.4
+      '@datastax/astra-db-ts': ^1.0.0
       '@elastic/elasticsearch': ^8.4.0
       '@getmetal/metal-sdk': '*'
       '@getzep/zep-js': ^0.9.0
@@ -761,8 +761,8 @@ packages:
       ws:
         optional: true
     dependencies:
-      '@langchain/core': 0.1.54
-      '@langchain/openai': 0.0.26
+      '@langchain/core': 0.1.57
+      '@langchain/openai': 0.0.28
       '@supabase/supabase-js': 2.42.0
       '@vercel/kv': 1.0.1
       expr-eval: 2.0.2
@@ -775,8 +775,8 @@ packages:
       - encoding
     dev: false
 
-  /@langchain/core@0.1.54:
-    resolution: {integrity: sha512-87pQ8dnWY8P1Kgnu/SgnRijLRNSEzTzkjBK6O/Z1klXf/eQTXAG5O5cKwe3lwM6Afn+4U2byzSMYjwViAYuR4g==}
+  /@langchain/core@0.1.57:
+    resolution: {integrity: sha512-6wOwidPkkRcANrOKl88+YYpm3jHfpg6W8EqZHQCImSAlxdEhyDSq2eeQKHOPCFCrfNWkClaNn+Wlzzz4Qwf9Tg==}
     engines: {node: '>=18'}
     dependencies:
       ansi-styles: 5.2.0
@@ -792,11 +792,11 @@ packages:
       zod-to-json-schema: 3.22.5(zod@3.22.4)
     dev: false
 
-  /@langchain/openai@0.0.26:
-    resolution: {integrity: sha512-FpqYvVRP2CkFFjTLrj2tbXeY6JTIgbq8tRoi0rvGzmhRpoi6cWHlfgclSzDm+e6P9DqKBkzDjo6SPTJgTOabNA==}
+  /@langchain/openai@0.0.28:
+    resolution: {integrity: sha512-2s1RA3/eAnz4ahdzsMPBna9hfAqpFNlWdHiPxVGZ5yrhXsbLWWoPcF+22LCk9t0HJKtazi2GCIWc0HVXH9Abig==}
     engines: {node: '>=18'}
     dependencies:
-      '@langchain/core': 0.1.54
+      '@langchain/core': 0.1.57
       js-tiktoken: 1.0.10
       openai: 4.33.0
       zod: 3.22.4
@@ -5556,8 +5556,8 @@ packages:
     dependencies:
       json-buffer: 3.0.1
 
-  /langchain@0.1.31(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1)(cheerio@1.0.0-rc.12)(playwright@1.43.0):
-    resolution: {integrity: sha512-J2iZZL48Nwdo1XDU5cS5YYm91b2L6sL3a8hH1gBljvDzCY7jbtUOTuIoRVx5iHN3DXuuLnszS4lhqg0u9hQxBQ==}
+  /langchain@0.1.33(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1)(cheerio@1.0.0-rc.12)(playwright@1.43.0):
+    resolution: {integrity: sha512-IrRd839x8eAmDutHNDMHGzIjufyWt/ckJrnRB2WifIJmtLWNRNQo5jZd7toeBU0UOVOQxoPtQGYf8lR0ar7vIQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@aws-sdk/client-s3': ^3.310.0
@@ -5716,9 +5716,9 @@ packages:
         optional: true
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
-      '@langchain/community': 0.0.44(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1)
-      '@langchain/core': 0.1.54
-      '@langchain/openai': 0.0.26
+      '@langchain/community': 0.0.48(@supabase/supabase-js@2.42.0)(@vercel/kv@1.0.1)
+      '@langchain/core': 0.1.57
+      '@langchain/openai': 0.0.28
       '@supabase/supabase-js': 2.42.0
       '@vercel/kv': 1.0.1
       binary-extensions: 2.3.0
@@ -5899,7 +5899,7 @@ packages:
   /lower-case@2.0.2:
     resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
     dependencies:
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /lru-cache@10.2.0:
@@ -6105,7 +6105,7 @@ packages:
     resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.4.1
+      tslib: 2.6.2
     dev: false
 
   /node-domexception@1.0.0:
