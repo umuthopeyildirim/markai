@@ -34,3 +34,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# SQL Backups
+db_cluster-03-06-2024@07-13-09.backup
+recovery.sh

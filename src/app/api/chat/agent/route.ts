@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
 
     const model = new ChatOpenAI({
       openAIApiKey: process.env.NEXT_SECRET_OPENAI_API_KEY!,
-      modelName: "gpt-3.5-turbo",
+      modelName: "gpt-4o",
       // This was used so I could track usage of the model in Cloudflare Dashboard
       // for more info: https://developers.cloudflare.com/ai-gateway/
       // configuration: {
